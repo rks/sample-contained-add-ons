@@ -12,6 +12,7 @@
 *.mex*
 
 # Packaged app and toolbox files
+*.mlappinstall
 *.mltbx
 
 # Deployable archives
@@ -33,3 +34,10 @@ codegen/
 
 # buildtool cache folder
 .buildtool/
+
+# macOS files
+.DS_Store
+
+# Java files
+toolbox/java/lib/*
+toolbox/java/src/*.class
