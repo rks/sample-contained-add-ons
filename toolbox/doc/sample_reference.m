@@ -1,12 +1,12 @@
-%% exampleFunction
+%% sampleFunction
 % 
-% <<../example.png>>
+% <<sample.png>>
 % 
-% Using |exampleFunction|:
+% Using |sampleFunction|:
 %
-exampleFunction(42)
+sampleFunction(42)
 
 %% With other functions
 %
-% The output of |exampleFunction| may be passed to another function:
-plot(exampleFunction(magic(3)))
+% The output of |sampleFunction| may be passed to another function:
+plot(sampleFunction(magic(4)))

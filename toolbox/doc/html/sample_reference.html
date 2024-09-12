@@ -80,29 +80,30 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 <div>
 <ul>
 <li>
-<a href="#1">exampleFunction</a>
+<a href="#1">sampleFunction</a>
 </li>
 <li>
 <a href="#2">With other functions</a>
 </li>
 </ul>
 </div>
-<h2 id="1">exampleFunction</h2>
+<h2 id="1">sampleFunction</h2>
 <p>
-<img vspace="5" hspace="5" src="../example.png" alt=""> </p>
-<p>Using <tt>exampleFunction</tt>:</p>
-<pre class="codeinput">exampleFunction(42)
+<img vspace="5" hspace="5" src="sample.png" alt=""> </p>
+<p>Using <tt>sampleFunction</tt>:</p>
+<pre class="codeinput">sampleFunction(42)
 </pre>
-<pre class="codeoutput error">Undefined function 'exampleFunction' for input arguments of type 'double'.
+<pre class="codeoutput">
+ans =
 
-Error in sample_reference (line 7)
-exampleFunction(42)
-^^^^^^^^^^^^^^^^^^^</pre>
-<h2 id="2">With other functions</h2>
-<p>The output of <tt>exampleFunction</tt> may be passed to another function:</p>
-<pre class="codeinput">plot(exampleFunction(magic(3)))
+    42
+
 </pre>
-<p class="footer">
+<h2 id="2">With other functions</h2>
+<p>The output of <tt>sampleFunction</tt> may be passed to another function:</p>
+<pre class="codeinput">plot(sampleFunction(magic(4)))
+</pre>
+<img vspace="5" hspace="5" src="sample_reference_01.png" alt=""> <p class="footer">
 <br>
 <a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2024b</a>
 <br>
@@ -110,18 +111,18 @@ exampleFunction(42)
 </div>
 <!--
 ##### SOURCE BEGIN #####
-%% exampleFunction
+%% sampleFunction
 % 
-% <<../example.png>>
+% <<sample.png>>
 % 
-% Using |exampleFunction|:
+% Using |sampleFunction|:
 %
-exampleFunction(42)
+sampleFunction(42)
 
 %% With other functions
 %
-% The output of |exampleFunction| may be passed to another function:
-plot(exampleFunction(magic(3)))
+% The output of |sampleFunction| may be passed to another function:
+plot(sampleFunction(magic(4)))
 ##### SOURCE END #####
 -->
 </body>
